@@ -1,5 +1,10 @@
 <% provide(:title, 'Help') %>
 <!HTML DOCTYPE>
+<html>
+<head>
+<title> Ruby on Rails Tutorial Sample App | <%= yield(:title) %> </title>
+</head>
+<body>
 <h1>Help</h1>
 <p>
 If you are lonely, dont worry just go to
@@ -8,4 +13,5 @@ or
 <a href="http://www.youtube.com"> Youtube </a>
 And have fun!! Goodbye for now.
 </p>
-
+</body>
+</html>
